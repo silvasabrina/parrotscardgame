@@ -1,0 +1,43 @@
+body{
+    background-color: #EEF9BF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 8vh;
+    position: relative;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    
+}
+header >h1{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 56px;
+    color: #75B79E;
+    text-align: center;
+    margin-bottom: 46px;
+ }
+ main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+ }
+ .fundo-carta{
+    width: 117px;
+    height: 146px;
+    background-color: #A7E9AF;
+    position: relative;
+    border-radius: 5px;
+ }
+ main .fundo-carta img{
+    width: 100px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0; 
+    margin: auto;
+ }
