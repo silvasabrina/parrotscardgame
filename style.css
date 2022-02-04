@@ -32,7 +32,7 @@ header >h1{
     position: relative;
     border-radius: 5px;
  }
- main .fundo-carta img{
+.frente-carta{
     width: 100px;
     position: absolute;
     left: 0;
@@ -41,3 +41,11 @@ header >h1{
     bottom: 0; 
     margin: auto;
  }
+/* Para a carta
+costa-carta e frente carta
+
+/* 
+REFERÊNCIAS PARA GIRO DE CARTAS (transform)
+.virar-costas {
+ 
+.virar-frente */
